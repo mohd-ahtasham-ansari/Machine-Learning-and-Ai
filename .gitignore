@@ -1,5 +1,26 @@
 # Ignore data files
 *.csv
+*.dat
+*.pkl
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.arrow
+*.sqlite
+*.db
+
+# Large model files
+*.model
+*.joblib
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.savedmodel
+models/
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
@@ -12,3 +33,36 @@ kaggle.json
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Large media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.tif
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# Environment and logs
+.env
+.venv/
+env/
+venv/
+ENV/
+logs/
+*.log
+wandb/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
